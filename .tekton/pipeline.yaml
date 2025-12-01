@@ -82,7 +82,7 @@ spec:
             taskRef:
               name: pytest
             runAfter:
-              - lint
+              - git-clone
             params:
               - name: path
                 value: service
